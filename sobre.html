@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nós - Loja de Conteúdos Digitais</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding-top: 30px;
+      min-height: 70px;
+      border-bottom: #77b300 3px solid;
+    }
+    header a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+    header ul {
+      padding: 0;
+      list-style: none;
+    }
+    header ul li {
+      float: left;
+      display: inline;
+      padding: 0 20px;
+    }
+    header #branding {
+      float: left;
+    }
+    header #branding h1 {
+      margin: 0;
+    }
+    header nav {
+      float: right;
+      margin-top: 10px;
+    }
+    .about {
+      padding: 20px;
+      background: #fff;
+      margin-top: 20px;
+    }
+    .about h2 {
+      text-align: center;
+      color: #333;
+    }
+    .team {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .team-member {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+      width: 30%;
+      box-shadow: 0 0 5px #ccc;
+    }
+    .team-member img {
+      border-radius: 50%;
+      max-width: 100px;
+      height: auto;
+    }
+    .faq {
+      margin-top: 20px;
+    }
+    .faq h2 {
+      text-align: center;
+      color: #333;
+    }
+    .faq-item {
+      margin: 20px 0;
+      padding: 20px;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #ccc;
+    }
+    .faq-item h3 {
+      cursor: pointer;
+    }
+    .faq-answer {
+      display: none;
+      margin-top: 10px;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Loja de Conteúdos Digitais</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <section class="about">
+    <div class="container">
+      <h2>Sobre Nós</h2>
+      <p>Bem-vindo à nossa loja! Somos especialistas em conteúdos digitais, oferecendo uma variedade de livros, vídeos, e músicas de alta qualidade. Nossa missão é proporcionar conhecimento e entretenimento para todos os nossos clientes.</p>
+    </div>
+  </section>
+
+  <section class="team">
+    <div class="container">
+      <h2>Nosso Time</h2>
+      <div class="team-member">
+        <img src="/storage/emulated/0/BlibliotecaRs/IMG_20240612_183748.webp" alt="Membro da Equipe">
+        <h3>Ragner Sebastian</h3>
+        <p>Diretor e Desenvolvedor</p>
+      </div>
+      <div class="team-member">
+        <img src="/storage/emulated/0/BlibliotecaRs/1718203368858.jpg" alt="Membro da Equipe">
+        <h3>Nigga RÓ</h3>
+        <p>Gerente de Produtos</p>
+      </div>
+      <div class="team-member">
+        <img src="/storage/emulated/0/BlibliotecaRs/1718203339760~2.jpg" alt="Membro da Equipe">
+        <h3>Sergio Chindunbo</h3>
+        <p>Analista de compras</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="container">
+      <h2>Perguntas Frequentes</h2>
+      <div class="faq-item">
+        <h3>Como posso baixar os produtos?</h3>
+        <div class="faq-answer">
+          <p>Após a compra, você receberá um código de acesso. Insira este código no campo apropriado em nossa página de produtos para liberar os links de download.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3>Quais são os métodos de pagamento aceitos?</h3>
+        <div class="faq-answer">
+          <p>Aceitamos pagamentos via cartão de crédito, PayPal e transferência bancária.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3>Posso pedir um reembolso?</h3>
+        <div class="faq-answer">
+          <p>Sim, oferecemos um período de reembolso de 14 dias para todos os produtos comprados. Entre em contato conosco para mais detalhes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 Loja de Conteúdos Digitais. Todos os direitos reservados.</p>
+      <p><a href="#">Política de Privacidade</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const faqItems = document.querySelectorAll('.faq-item h3');
+      faqItems.forEach(item => {
+        item.addEventListener('click', function() {
+          const answer = this.nextElementSibling;
+          if (answer.style.display === 'block') {
+            answer.style.display = 'none';
+          } else {
+            answer.style.display = 'block';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

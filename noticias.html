@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notícias - Loja de Conteúdos Digitais</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding-top: 30px;
+      min-height: 70px;
+      border-bottom: #77b300 3px solid;
+    }
+    header a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+    header ul {
+      padding: 0;
+      list-style: none;
+    }
+    header ul li {
+      float: left;
+      display: inline;
+      padding: 0 20px;
+    }
+    header #branding {
+      float: left;
+    }
+    header #branding h1 {
+      margin: 0;
+    }
+    header nav {
+      float: right;
+      margin-top: 10px;
+    }
+    .news {
+      padding: 20px;
+      background: #fff;
+      margin-top: 20px;
+    }
+    .news h2 {
+      text-align: center;
+      color: #333;
+    }
+    .news-articles {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .news-article {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin: 10px;
+      padding: 20px;
+      width: 30%;
+      box-shadow: 0 0 5px #ccc;
+      text-align: center;
+    }
+    .news-article img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .news-article h3 {
+      margin: 10px 0;
+    }
+    .news-article p {
+      color: #666;
+    }
+    .news-article a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #77b300;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .news-article a:hover {
+      background-color: #669900;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Loja de Conteúdos Digitais</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="noticias.html">Notícias</a></li> <!-- Novo item de menu -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="news">
+    <div class="container">
+      <h2>Últimas Notícias</h2>
+      <div class="news-articles">
+        <div class="news-article">
+          <img src="/storage/emulated/0/BlibliotecaRs/GettyImages-1248551713.jpg" alt="Notícia 1">
+          <h3>Alemanha sofre um atack</h3>
+          <p>Hackers da Rússia reivindicam ataque cibernético a empresa de defesa da Espanha"...</p>
+          <a href="https://www.cnnbrasil.com.br/internacional/hackers-da-russia-reivindicam-ataque-cibernetico-a-empresa-de-defesa-da-espanha/">Leia Mais</a>
+        </div>
+        <div class="news-article">
+          <img src="/storage/emulated/0/BlibliotecaRs/cnn-L19jb21wb25lbnRzL2ltYWdlL2luc3RhbmNlcy9jbHZ5OWNrZzIwMDA0M2I2amR5NjZpdXc1-L19jb21wb25lbnRzL2FydGljbGUvaW5zdGFuY2VzL2Nsdnk3NjVodTAwMWpqeHA1OGN4bzBqZW4.jpg" alt="Notícia 2">
+          <h3>Ataque de hackers afeta hositais nos EUA</h3>
+          <p>Ataque de hackers afeta operações em grande rede de hospitais dos EUA...</p>
+          <a href="https://www.cnnbrasil.com.br/internacional/ataque-de-hackers-afeta-operacoes-em-grande-rede-de-hospitais-dos-eua/">Leia Mais</a>
+        </div>
+        <div class="news-article">
+          <img src="/storage/emulated/0/Download/2022-01-14T174610Z_1_LYNXMPEI0D0UP_RTROPTP_4_CANADA-CYBER-e1715196468520(0).jpg" alt="Notícia 3">
+          <h3>Polônia diz que hackers russsos atacram redes</h3>
+          <p>Polônia diz que hackers russos atacaram redes governamentais...</p>
+          <a href="https://www.cnnbrasil.com.br/internacional/ataque-de-hackers-afeta-operacoes-em-grande-rede-de-hospitais-dos-eua/
+
+">Leia Mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 Loja de Conteúdos Digitais. Todos os direitos reservados.</p>
+      <p><a href="#">Política de Privacidade</a></p>
+    </div>
+  </footer>
+</body>
+</html>
